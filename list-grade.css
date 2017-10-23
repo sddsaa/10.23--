@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+#app{
+    width:500px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.title{
+    width: 100%;
+    background-color: skyblue;
+    padding: 5px 0;
+    overflow: hidden;
+    text-align: right;
+}
+
+.title div{
+    margin-right: 15px;
+}
+.grade-img{
+    background-color: deeppink;
+    display: inline-block;
+    padding:5px 5px 0 ;
+}
+
+.list-img{
+    background-color:dodgerblue;
+    display: inline-block;
+    padding: 5px 5px 0;
+}
+.title div img{
+    line-height: 20px;
+    height: 20px;
+}
+
+.grade{
+    overflow: hidden;
+}
+
+.grade .box{
+    width: 48%;
+    float: left;
+    margin: 0 5px;
+}
+
+
+.grade .box img{
+    width: 100%;
+}
+
+
+.list{
+
+}
+
+.list .box{
+    box-sizing: border-box;
+    padding: 10px 40px 10px 10px;
+    width: 480px;
+    margin: 10px 0;
+    border-bottom: 1px solid #cccccc;
+    overflow: hidden;
+}
+
+.list .box img{
+    width: 100px;
+}
+
+.list .box p{
+    display:inline-block;
+    width: 320px;
+    float: right;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
