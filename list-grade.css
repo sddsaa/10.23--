@@ -4,9 +4,10 @@
 }
 
 #app{
-    width:500px;
+    width:600px;
     border: 1px solid #ccc;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .title{
@@ -37,24 +38,34 @@
 }
 
 .grade{
+    margin-top: 20px;
     overflow: hidden;
 }
 
 .grade .box{
-    width: 48%;
+    width: 280px;
     float: left;
-    margin: 0 5px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
 }
-
 
 .grade .box img{
-    width: 100%;
+    width: 560px;
+    position: relative;
+    left: -140px;
+
 }
+
+
+
+
 
 
 .list{
 
 }
+
 
 .list .box{
     box-sizing: border-box;
